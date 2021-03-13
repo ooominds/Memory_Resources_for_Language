@@ -71,7 +71,7 @@ wald_gam(gam.model,
 ### BRM ###
 ###########
 
-# note: it is expected that the estimates will be slightly different
+# NOTE: It is expected that the estimates will be slightly different
 #       for each specific chain/iteration run
 summary(brm.model <- brm(RT.log ~
     (Type + Llama_F + SRT) * Condition +
