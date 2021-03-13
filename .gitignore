@@ -1,0 +1,6 @@
+.DS_Store
+*.m~
+*.mexmaci64
+__pycache__
+*.pyc
+.Rhistory
